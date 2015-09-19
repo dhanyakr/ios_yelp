@@ -18,13 +18,6 @@
 @property (nonatomic,readonly) NSDictionary *filters;
 @property (nonatomic,strong) FilterValues *filterValues;
 @property (nonatomic,strong) FilterSelections *filterSelections;
-/*
-@property (nonatomic, strong) NSMutableSet *selectedCategories;
-@property (nonatomic, strong) NSMutableSet *selectedDeal;
-@property (nonatomic, strong) NSString *selectedSort;
-@property (nonatomic, strong) NSString *selectedDistance;
-*/
-
 
 @end
 
@@ -33,12 +26,6 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        /*
-        self.selectedCategories = [NSMutableSet set];
-        self.selectedDeal = [NSMutableSet set];
-        self.selectedSort = [NSString stringWithFormat:@""];
-        self.selectedDistance = [NSString stringWithFormat:@""];
-         */
         self.filterValues = [[FilterValues alloc] init];
         self.filterSelections = [[FilterSelections alloc] init];
     }
