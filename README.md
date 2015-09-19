@@ -83,3 +83,7 @@ businesses =     (
     };
     total = 760;
 ```
+
+![Video Walkthrough](yelpDemo.gif)
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
